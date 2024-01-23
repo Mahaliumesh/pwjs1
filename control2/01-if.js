@@ -1,4 +1,4 @@
-
+/*
 
 let temperature = 16
 
@@ -8,6 +8,11 @@ if(temperature < 20){
     console.log("it's really Hot")
 }
 console.log("Pw SKILL")
+
+
+
+
+
 
 
 
@@ -31,6 +36,16 @@ if(score>99){
 }
 console.log(`your score is ${score} and my life is ${life} and your bullets are ${bullets}`);
 
+
+
+
+
+
+
+
+
+
+
 //Never Do it 
 
 let balance = 500
@@ -38,6 +53,16 @@ if (balance > 100)
     console.log("Balance is above 500"),
     console.log("Balance is above 500"),
     console.log("Balance is above 500") //This is not a readable but it is also a trick to write this  way
+
+
+
+
+
+
+
+
+
+
 
     //build code rating system for pizzahut
     //1 star - poor
@@ -71,6 +96,19 @@ if (balance > 100)
         console.log("I don't know that rating !!!")
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     switch(expression){
         case 1:
             console.log("poor");
@@ -98,3 +136,132 @@ if (balance > 100)
         default:
             console.log("I don't know that rating is for");    
     }
+    */
+
+
+
+
+
+
+
+
+
+
+    /*
+
+
+    //login system
+
+    const email = "sanjit@google.com"
+
+    //if email is present, ask for password. Otherwise ask for email
+
+    if (email == "sanjit@google.com"){
+        console.log("please enter your password");
+    }else{
+        console.log("please enter your email");
+    }
+
+    // if (email !=""){
+    //     console.log("please provide a password");
+    // }else{
+    //     console.log("please enter your email");
+    // }
+
+    console.log(Boolean(email));
+
+    //truthy falsy
+
+    //falsy values
+
+    /*
+    false
+    0          (-0 and BigInt On)
+    ""
+    null                                     this all the falsy values rest of this are truthy values
+    undefine
+    NaN*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //if user provides email, password, then allow login, else ask for it
+
+    const email =""
+    const password =""
+
+    if(email){
+        if(password){
+            console.log("welcome to the app");
+        }else{
+            console.log("please the password");
+        } 
+    }else{
+        console.log("please enter your email");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //logical Operation
+    //&& -> and ; || => OR
+
+    if(email && password){
+        console.log("welcome to the app");
+    }else{
+        console.log("please enter email and password");
+    }
+
+
+
+
+
+
+
+
+
+    
+
+    //allow user to signin with google or github
+
+    const googleLogginToken = ""
+    const githubLogginToken = ""
+
+    if(googleLogginToken || githubLogginToken){
+        console.log("welcome to the app");
+    }else{
+        console.log("Please login to view account");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
