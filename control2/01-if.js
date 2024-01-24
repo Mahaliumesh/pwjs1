@@ -263,5 +263,53 @@ if (balance > 100)
 
 
 
+    
+    let age = 19
+
+    if(age>=18){
+        console.log("you get the driving license");
+    }else{
+        console.log("you are not eligible for driving licence");
+    }
+
+
+
+
+
+
+
+
+
+
+
+// another way
+
+
+let age = 19
+const willYoungDrivinglicence = false
+    if(age>=18) ?  willYoungDrivinglicence = true : willYoungDrivinglicence = false
+
+    const = getDrivinglicence = age >= 18 ? "true part" : "false part"                  //ternary operator
+
+
+
+
+
+
+
+
+
+
+
+
+let loading = false
+
+if (loading){
+    return "loading..."
+}
+console.log("Show the cards to user");
+
+loading ?  "show loading spinner" : "show card to user"
+
 
 
