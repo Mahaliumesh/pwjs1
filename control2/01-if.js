@@ -193,7 +193,7 @@ if (balance > 100)
 
 
 
-
+/*
 
     //if user provides email, password, then allow login, else ask for it
 
@@ -211,6 +211,7 @@ if (balance > 100)
     }
 
 
+*/
 
 
 
@@ -219,8 +220,7 @@ if (balance > 100)
 
 
 
-
-
+/*
 
     //logical Operation
     //&& -> and ; || => OR
@@ -234,12 +234,12 @@ if (balance > 100)
 
 
 
+*/
 
 
 
 
-
-    
+ /*   
 
     //allow user to signin with google or github
 
@@ -255,14 +255,14 @@ if (balance > 100)
 
 
 
+*/
 
 
 
 
 
 
-
-
+/*
     
     let age = 19
 
@@ -272,6 +272,7 @@ if (balance > 100)
         console.log("you are not eligible for driving licence");
     }
 
+*/
 
 
 
@@ -279,8 +280,7 @@ if (balance > 100)
 
 
 
-
-
+/*
 
 // another way
 
@@ -291,7 +291,7 @@ const willYoungDrivinglicence = false
 
     const = getDrivinglicence = age >= 18 ? "true part" : "false part"                  //ternary operator
 
-
+*/
 
 
 
